@@ -1,0 +1,212 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    color: white;
+}
+
+nav{
+	position: fixed;
+	background-color: black;
+	overflow-y: hidden;
+}
+
+nav button{
+	padding: 0;
+}
+
+.navbar-brand{
+	font-style: 'Anton',cursive;
+	letter-spacing: 0.5px;
+	color: white;
+	margin: 0px;
+	padding: 0px;
+}
+
+.navbar-brand img{
+	width: 50px;
+}
+
+.login{
+	color: gold;
+}
+
+#navbarNav{
+	justify-content: flex-end;
+	transition: 1.5s;
+}
+
+.nav-link{
+	text-align: center;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding: 5px;
+}
+
+.dropdown-menu{
+	background-color: white;
+}
+
+.dropdown-menu .dropdown-item{
+	padding: 10px;
+}
+
+.mysidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+
+  .mysidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 18px;
+    color: rgba(255,255,255,0.8);
+    display: block;
+    transition: 0.3s;
+  }
+
+  .mysidebar a:hover {
+    color: #f1f1f1;
+  }
+
+  .mysidebar .myclosebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+
+  #mymain button{
+      width: 10%;
+  }
+
+  .myopenbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #f1f1f1;
+    color: black;
+    border-radius: 50%;
+    border: none;
+    padding: 0;
+  }
+
+  .myopenbtn:hover {
+    background-color: #444;
+  }
+
+  #mymain,#mymain-main{
+    transition: margin-left .5s;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .mysidebar {padding-top: 15px;}
+    .mysidebar a {font-size: 18px;}
+  }
+  
+.side-icon{ 
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.side-icon img{
+    width: 90%;
+    border-radius: 50%;
+    padding: 2px;
+    margin: 5px;
+}
+
+.side-icon img {
+	box-shadow: 0px 0px 4px black;
+}
+
+#mymain{
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+    background-color: white;
+    border-top: 2px solid goldenrod;
+}
+
+#mymain-main{
+    width:15%;
+	position: fixed;
+    bottom: 0;
+    background-color: white;
+    border-radius: 500%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid goldenrod;
+}
+
+#mymain-main button{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.collection div{
+    height: 31vw;
+    display: flex;
+    margin: 5px;
+    align-items: center;
+}
+
+.collection div img{
+    width: 25vw;
+    border-radius: 50%;
+    border: 1px double goldenrod;
+}
+
+.collection div p{
+    font-size: 5vw;
+    margin: 5px;
+}
+
+.collection .three .three-first p{
+    font-size: 6vw;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 5px;
+}
+
+.collection .three .three-first p::first-letter{
+    font-size: 8vw;
+    font-weight: 600;
+}
+
+.collection .one,.collection .five{
+    justify-content: flex-start;
+    margin-left: 30px;
+}
+
+.collection .two,.collection .four{
+    justify-content: center;
+    margin-left: 25px;
+}
+
+.collection .three .three-first{
+    width: 30%;
+    justify-content: flex-start;
+}
+
+.collection .three .three-second{
+    width: 70%;
+    justify-content: flex-end;
+}

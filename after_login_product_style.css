@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bellota:wght@700&family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rochester&display=swap');
+
+body{
+	font-family: 'Lato', sans-serif;
+	background-image: url("zeah-name-watermark.PNG");
+	margin: 0;
+	padding: 0;
+	border: 1px solid goldenrod;
+}
+
+nav{
+	position: fixed;
+	background-color: black;
+	overflow: hidden;
+}
+
+nav button{
+	padding: 0;
+}
+
+.navbar-brand{
+	font-style: 'Anton',cursive;
+	letter-spacing: 0.5px;
+	color: white;
+	margin: 0px;
+	padding: 0px;
+}
+
+.navbar-brand img{
+	width: 50px;
+}
+
+.login{
+	color: gold;
+}
+
+#navbarNav{
+	justify-content: flex-end;
+	transition: 1.5s;
+}
+
+.nav-link{
+	text-align: center;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding: 5px;
+}
+
+.dropdown-menu{
+	background-color: white;
+}
+
+.dropdown-menu .dropdown-item{
+	padding: 10px;
+}
+
+.mysidebar {
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: #111;
+	overflow-x: hidden;
+	transition: 0.5s;
+	padding-top: 60px;
+  }
+
+  .mysidebar a {
+	padding: 8px 8px 8px 32px;
+	text-decoration: none;
+	font-size: 18px;
+	color: rgba(255,255,255,0.8);
+	display: block;
+	transition: 0.3s;
+  }
+
+  .mysidebar a:hover {
+	color: #f1f1f1;
+  }
+
+  .mysidebar .myclosebtn {
+	position: absolute;
+	top: 0;
+	right: 25px;
+	font-size: 36px;
+	margin-left: 50px;
+  }
+
+  .myopenbtn {
+	font-size: 20px;
+	cursor: pointer;
+	background-color: #111;
+	color: white;
+	border: none;
+	padding: 0;
+  }
+
+  .myopenbtn:hover {
+	background-color: #444;
+  }
+
+  #mymain {
+	transition: margin-left .5s;
+  }
+
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+	.mysidebar {padding-top: 15px;}
+	.mysidebar a {font-size: 18px;}
+  }
+
+  
+#mymain{
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	z-index: 1;
+	background-color: black;
+	display: flex;
+	justify-content: space-around;
+}
+
+.side-icon{ 
+    display: flex;
+    background-color: black;
+    flex-direction: column;
+    justify-content: center;
+	align-items: center;
+}
+
+.side-icon img{
+    width: 25%;
+	border-radius: 50%;
+	margin-bottom: 5px;
+	padding: 2px;
+	box-shadow: 0px 0px 4px white;
+}
+
+.items{
+	height: 85vh;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	overflow-y: scroll;
+	scroll-behavior: smooth;
+	text-align: center;
+	margin-bottom: 5vh;
+}
+
+#heading{
+	width: 100%;
+	font-size: 6vw;
+	font-weight: 400;
+	text-shadow: 0px 0px 5px goldenrod;
+}
+
+hr{
+	margin: 0;
+	margin-bottom: 2px;
+	background-color: goldenrod;
+}
+
+.items img{
+	width: 40%;
+	margin: 4%;
+	border: 1px solid white;
+	box-shadow: 0px 0px 5px black;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera
+.items::-webkit-scrollbar {
+    display: none;
+  }
+  
+/* Hide scrollbar for IE, Edge and Firefox */
+.items{
+-ms-overflow-style: none;  /* IE and Edge */
+scrollbar-width: none;  /* Firefox */
+} */

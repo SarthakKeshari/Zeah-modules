@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bellota:wght@700&family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rochester&display=swap');
+
+*{
+	overflow-x: hidden;
+	color: white;
+}
+
+body{
+	font-family: 'Lato', sans-serif;
+	background-image: url("zeah-name-watermark.PNG");
+	margin: 0;
+    padding: 0;
+}
+
+nav{
+	position: fixed;
+	background-color: black;
+	overflow-y: hidden;
+}
+
+nav button{
+	padding: 0;
+}
+
+.navbar-brand{
+	font-style: 'Anton',cursive;
+	letter-spacing: 0.5px;
+	color: white;
+	margin: 0px;
+	padding: 0px;
+}
+
+.navbar-brand img{
+	width: 50px;
+}
+
+.login{
+	color: gold;
+}
+
+#navbarNav{
+	justify-content: flex-end;
+	transition: 1.5s;
+}
+
+.nav-link{
+	text-align: center;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding: 5px;
+}
+
+.dropdown-menu{
+	background-color: white;
+}
+
+.dropdown-menu .dropdown-item{
+	padding: 10px;
+}

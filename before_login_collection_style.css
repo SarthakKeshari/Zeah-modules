@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bellota:wght@700&family=Lato:wght@&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rochester&display=swap');
+
+*{
+	overflow-x: hidden;
+	color: white;
+}
+
+html,body{
+	height: 100%;
+}
+
+body{
+	font-family: 'Lato', sans-serif;
+	background-color: rgba(0,0,0,0.9);
+}
+
+.background{
+	background-image: url("img/jewel-display-wallpaper.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 100%;
+}
+
+nav{
+	position: fixed;
+	background-color: black;
+	overflow-x: hidden;
+}
+
+.navbar-brand img{
+	width: 50px;
+}
+
+.navbar h2{
+	margin: 0px;
+	font-size: 30px;
+	padding: 4px;
+}
+
+#navbarNav{
+	justify-content: flex-end;
+	transition: 1.5s;
+}
+
+.nav-link{
+	text-align: center;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding: 5px;
+}
